@@ -10,8 +10,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
-if [ "$TMUX" = ""  ]; then tmux; fi
-
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias rm='rm -f'
 
